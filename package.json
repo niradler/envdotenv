@@ -1,15 +1,27 @@
 {
   "name": "envdotenv",
   "version": "0.0.1",
-  "description": "",
+  "description": "base on dotenv package, adding the support for different environment.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "env",
+    "dotenv"
+  ],
   "author": "Nir Adler",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niradler/envdotenv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niradler/envdotenv/issues"
+  },
+  "homepage": "https://github.com/niradler/envdotenv#readme"
 }
